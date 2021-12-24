@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>How many As and Bs?</title>
+</head>
+<body>
+	<p id="demo"></p>
+	<script type="text/javascript">
+
+		rand = []
+
+		for n in ()
+
+		var rand1 = Math.floor(Math.random() * 9 + 1);
+		var rand2 = Math.floor(Math.random() * 10);
+		var rand3 = Math.floor(Math.random() * 10);
+		var rand4 = Math.floor(Math.random() * 10);
+
+		guess = window.prompt("Let's guess the number!!!");
+		
+		const guesssplit = guess.split("");
+
+		let i = 0;
+
+		let a = 0;
+
+		let b = 0;
+
+		while (i < 1){
+			if (Number(guesssplit[0]) == rand1){
+				alert("You're RIGHT!")
+				i = 1
+			}
+			else{
+				guess = window.prompt("NO NO. Do it AGAIN!")
+				i = -1
+			}		
+		}
+
+		document.writeln('Press F5 to play again!');
+
+	</script>
+</body>
+</html>

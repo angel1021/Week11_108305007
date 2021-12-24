@@ -1,0 +1,89 @@
+div.labone{
+	margin-left: 150px;
+	float: left;
+	border: 5px;
+	border-color: coral;
+	display: inline-block;
+}
+div.labtwo{
+	margin-right: 150px;
+	float: right;
+	border: 5px;
+	border-color: coral;
+	display: inline-block;
+	vertical-align: top;
+}
+div.styledemo{
+	float: left;
+	margin-left: 50%;
+}
+div#images{
+	background-image: url(5234768.jpg);
+}
+
+div#shark{
+	margin-top:50px ;
+	margin-bottom: 50px;
+	border:5px #FFAC55 solid;
+}
+
+h1{
+	font-family: Georgia, serif;
+	font-size: 60px;
+	color: Gold;
+	text-decoration: overline;
+	text-align: center;
+}
+.country{
+	font-size: 30px;
+	color: coral;
+	line-height: 45px;
+	font-weight: bold;
+}
+.university{
+	font-size: 20px;
+	color: MistyRose;
+	line-height: 30px;
+	font-weight: normal;
+	vertical-align: middle;
+}
+li em{
+	color: Salmon;
+}
+span{
+	text-decoration: underline;
+	color: Violet;
+}
+.extra span{
+	text-decoration: underline;
+	color: inherit;
+}
+
+th{
+	text-align: ;
+	font-family: Spectral;
+	font-size: 40px;
+}
+
+td{
+	font-family: 'Fauna One', serif;
+	text-decoration: underline;
+	color: DarkBlue;
+}
+
+.me td{
+	color: inherit;
+}
+
+.main {
+	font-family: Cinzel, serif;
+	font-weight: bold;
+}
+
+td em{
+	text-decoration: overline;
+	font-size: 20px;
+}
+table{
+	border: 3px #cccccc solid;
+}
